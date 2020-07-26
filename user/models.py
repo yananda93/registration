@@ -60,7 +60,7 @@ class User(AbstractBaseUser):
         verbose_name='Full name',
         max_length=255,
     )
-    email_verified = models.BooleanField(default=True)
+    email_verified = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_volunteer = models.BooleanField(default=False)
     is_organizer = models.BooleanField(default=False)

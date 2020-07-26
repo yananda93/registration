@@ -1,7 +1,0 @@
-SendGrid
- 1. go to sendgrid, register, verify domain(or single sender for testing)
- 2. in sendgrid, generate Key and add the key to sendgrid.env. source sendgrid.env
-	echo "export SG_KEY='YOUR_API_KEY'" > sendgrid.env
-    echo "sendgrid.env" >> .gitignore
-	source ./sendgrid.env
- 3. In hackathon_variables.py, modify "REGEX_HACKATHON_ORGANIZER_EMAIL" to an email either belong to the verified domain or is a single verified sender
