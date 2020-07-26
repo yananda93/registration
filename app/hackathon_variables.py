@@ -19,7 +19,7 @@ if HEROKU_APP_NAME and not HACKATHON_DOMAIN:
 elif not HACKATHON_DOMAIN:
     HACKATHON_DOMAIN = 'localhost:8000'
 # Hackathon contact email: where should all hackers contact you. It will also be used as a sender for all emails
-HACKATHON_CONTACT_EMAIL = 'contact@gerard.space'
+HACKATHON_CONTACT_EMAIL = 'yananda93@gmail.com'
 # Hackathon logo url, will be used on all emails
 HACKATHON_LOGO_URL = 'https://avatars2.githubusercontent.com/u/33712329?s=200&v=4'
 
