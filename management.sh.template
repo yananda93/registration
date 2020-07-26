@@ -3,7 +3,7 @@ export PROD_MODE="True"
 # Set up your postgres password
 export PG_PWD="password"
 # If using Sendgrid set api key here
-export SG_KEY="API_KEY"
+export SG_KEY="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"
 # Domain where running
 export DOMAIN="my.hackupc.com"
 
